@@ -20,7 +20,7 @@ public class Main {
     private static void remove_specl_chars(String text){
         if (text.isEmpty()) {
             System.out.println("----------------------------------");
-            System.out.println("|           Enter Text           |");
+            System.out.println("|        Enter Your Text          |");
             System.out.println("----------------------------------");
             String[] args = new String[0]; // Or String[] args = {};
             main(args);
